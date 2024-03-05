@@ -40,7 +40,7 @@ representation on mmWave radar. Following we introduce the composition and imple
 | Duration of Each Chirp | 19.9 μs | - |
 
 ## Data preprocessing
-Taking the action of lying down as an example, the raw signals are processed through range-FFT and doppler-FFT to generate a range-Doppler heatmap (first row), and through Range-FFT and Angle-FFT to produce a Range-Angle heatmap(second row).
+Taking the action of lying down as an example, the raw signals are processed through range-FFT and doppler-FFT to generate a range-Doppler heatmap (first row), and through Range-FFT and Angle-FFT to produce a Range-Angle heatmap (second row).
 
 ![rdfft_heatmap](/rdfft_heatmap.jpg)
 ![rafft_heatmap](/rafft_heatmap.jpg)
