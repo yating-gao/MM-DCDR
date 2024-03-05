@@ -5,5 +5,6 @@ representation on radar-based human sensing.  Following we introduce the composi
 
 # Dataset Introduction
 
+![Action of Liedownup](/lie_visualization_Camera.svg)
 
 
