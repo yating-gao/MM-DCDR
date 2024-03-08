@@ -1,4 +1,4 @@
-# MM-DCDR-dataset
+# mmwave device configuration data represention dataset (MM-DCDR Dataset)
 
 MM-DCDR dataset is an open-source mmWave human activity dataset collected from various domains (i.e. radar kinds, environments and users), and it can be used to investigate the influence of device configurations and data
 representation on mmWave radar. Following we introduce the composition and implementation details of this dataset.
