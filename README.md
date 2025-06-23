@@ -51,4 +51,4 @@ Taking the action of lying down as an example, the raw signals are processed thr
 ### Pointcloud
 The raw signals are converted into a 3D point cloud using a two-dimensional Fourier Transform process that includes Range-FFT and Doppler-FFT, combined with CFAR detection and DOA estimation techniques. The point cloud produced by the AWR1843 radar encompasses five-dimensional features, which consist of the xyz spatial coordinates, Doppler velocity, and the intensity of the reflected signal. In contrast, the point cloud formed by the IMAGEVK-74 radar is characterized by four-dimensional attributes, which capture the xyz spatial coordinates along with the signal's reflectivity intensity.
 
-![pcd sequence](/lie_visualization_pcd.svg)
+![pcd sequence](/figure/lie_visualization_pcd.svg)
