@@ -5,7 +5,7 @@ representation on mmWave radar. Following we introduce the composition and imple
 
 # Dataset Introduction
 
-![Action of Liedownup](/liedown_camera.jpg)
+![Action of Liedownup](/figure/liedown_camera.jpg)
 
 - **11 volunteers**: 11 users with different sex, ages, heights and weights.
 - **2 distances**: 1m, 2m
@@ -19,7 +19,7 @@ representation on mmWave radar. Following we introduce the composition and imple
 
 - This dataset is collected by TI AWR1843 mmWave radar, IMAGEVK-74 radar and Zed 2i camera.
 
-![Devices](/devices.jpg)
+![Devices](/figure/devices.jpg)
 
 - The parameters of the radar are set as follows:
 
@@ -45,8 +45,8 @@ representation on mmWave radar. Following we introduce the composition and imple
 
 Taking the action of lying down as an example, the raw signals are processed through range-FFT and doppler-FFT to generate a range-Doppler heatmap (first row), and through Range-FFT and Angle-FFT to produce a Range-Angle heatmap (second row).
 
-![rdfft_heatmap](/rdfft_heatmap.jpg)
-![rafft_heatmap](/rafft_heatmap.jpg)
+![rdfft_heatmap](/figure/rdfft_heatmap.jpg)
+![rafft_heatmap](/figure/rafft_heatmap.jpg)
 
 ### Pointcloud
 The raw signals are converted into a 3D point cloud using a two-dimensional Fourier Transform process that includes Range-FFT and Doppler-FFT, combined with CFAR detection and DOA estimation techniques. The point cloud produced by the AWR1843 radar encompasses five-dimensional features, which consist of the xyz spatial coordinates, Doppler velocity, and the intensity of the reflected signal. In contrast, the point cloud formed by the IMAGEVK-74 radar is characterized by four-dimensional attributes, which capture the xyz spatial coordinates along with the signal's reflectivity intensity.
