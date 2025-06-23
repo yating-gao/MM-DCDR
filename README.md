@@ -55,7 +55,7 @@ The raw signals are converted into a 3D point cloud using a two-dimensional Four
 
 ## How to access the dataset
 
-To obtain the dataset, please sign the [agreement](datasetAgreement.pdf), scan and send it to yatinggao557@gmail.com. You will receive a notification email which includes the download links of the dataset within two days.
+To obtain the dataset, please sign the [agreement](/agreement.pdf), scan and send it to yatinggao557@gmail.com. You will receive a notification email which includes the download links of the dataset within two days.
 
 
 ## Citation
